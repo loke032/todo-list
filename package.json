@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "dev": "webpack serve",
-      "build": "webpack",
-      "deploy": "git subtree push --prefix dist origin gh-pages"
+    "dev": "webpack serve",
+    "build": "webpack",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +19,8 @@
     "webpack": "^5.111.1",
     "webpack-cli": "^7.2.3",
     "webpack-dev-server": "^6.0.0"
+  },
+  "dependencies": {
+    "date-fns": "^4.4.0"
   }
 }
