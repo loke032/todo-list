@@ -254,6 +254,11 @@ input:-webkit-autofill:focus {
 
 /*--------Sidebar------*/
 
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 .sidebar-content {
     display: flex;
@@ -293,7 +298,14 @@ input:-webkit-autofill:focus {
     background: rgba(255, 255, 255, 0.1);
 }
 
+.maker {
+    margin: 0;
+    padding: 5px 15px;
 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 17px;
+}
 
 /*--------Buttons------*/
 

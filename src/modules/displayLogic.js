@@ -76,6 +76,8 @@ function loadSidebar(projects) {
             sidebarModal.showModal()
         })
     }
+
+    
 }
 
 
