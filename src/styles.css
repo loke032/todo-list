@@ -143,7 +143,7 @@ input:-webkit-autofill:focus {
     min-height: 100px;
 
     font-family: inherit;
-    font-size: inherit;
+    font-size: 14px;
 }
 
 .todo-form textarea:focus {
