@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+<script defer src="main.js"></script></head>
+<body>
+    <div class="main">
+        <div class="header">
+            <h2 class="title">Todo List</h2>
+        </div>
+        <div class="sidebar">
+            <div class="sidebar-content">
+                
+            </div>
+            <dialog id="sidebar-modal">
+                <form method="dialog" class="sidebar-form">
+                    <h2 class="sidebar-modal-title">Add Project</h2>
+                    
+                    <label for="project-title-input">Name: </label>
+                    <input id="project-title-input" class="project-title-input" type="text" placeholder="Name" required>
+
+                    <div class="buttons">
+                        <button class="add-project-button-modal" type="submit">Add</button>
+                        <button class="cancel-project-button" type="button">Cancel</button>
+                    </div>
+                </form>
+            </dialog>
+        </div>
+        <div class="todo-content">
+            <div class="todo-content2">
+                <input type="checkbox" value="">
+            </div>
+            <button id="open-modal">Add Todo</button>
+
+            <dialog id="todo-modal">
+                <form method="dialog" class="todo-form">
+                    <h2 class="modal-title">Add Todo</h2>
+
+                    <label for="title">Title: </label>
+                    <input id="title" type="text" placeholder="Title" required>
+
+                    <label for="description">Description: </label>
+                    <input id="description" type="text" placeholder="Description">
+
+                    <label for="date">Due Date: </label>
+                    <input id="date" type="date">
+
+                    <h3>Priority</h3>
+
+                    <div class="priority-option">
+                        <input type="radio" id="priority1" name="priority" value="low" checked>
+                        <label for="priority1">Low</label>
+                    </div>
+
+                    <div class="priority-option">
+                        <input type="radio" id="priority2" name="priority" value="medium">
+                        <label for="priority2">Medium</label>
+                    </div>
+
+                    <div class="priority-option">
+                        <input type="radio" id="priority3" name="priority" value="high">
+                        <label for="priority3">High</label>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="add-todo-button" type="submit">Add</button>
+                        <button class="cancel-todo-button" type="button">Cancel</button>
+                    </div>
+                </form>
+            </dialog>
+        </div>
+    </div>
+</body>
+</html>
